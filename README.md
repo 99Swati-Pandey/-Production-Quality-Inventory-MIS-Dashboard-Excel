@@ -6,6 +6,12 @@ An Excel MIS project on a simulated oral-care manufacturing plant (Manesar). It 
 
 ---
 
+## Dashboard preview
+
+![Perfora Production, Quality & Inventory MIS Dashboard](images/dashboard.png)
+
+---
+
 ## Business problem
 
 From July 2026 the Plant Head saw rising customer complaints about mouthwash leakage and repeated mouthwash stock-outs. The monthly MIS showed plant-level rejection under the 4% limit, so no alert was raised. Management suspected night-shift manpower. The task was to find what changed, where, and what it cost.
@@ -43,7 +49,7 @@ From July 2026 the Plant Head saw rising customer complaints about mouthwash lea
 4. **Shift, supervisor and attendance are not the cause.** PackRight runs at about 10% on every shift. Shift C looked worse only because it ran more PackRight batches. Attendance showed almost no correlation with rejection.
 5. **The plant-level rate hid it.** Plant rejection was 3.4% in Jul to Sep, under the 4% limit, even though L2 more than doubled.
 6. **Stock and cost impact.**
-   - About ₹32 lakh excess rejection loss from PackRight batches in 3 months
+   - About ₹31.8 lakh excess rejection loss from PackRight batches in 3 months (over a 2.5% baseline)
    - Average mouthwash closing stock fell about 49%
    - 20 zero-stock runs in September, with about 12,900 units of unmet demand
 
@@ -65,7 +71,8 @@ From July 2026 the Plant Head saw rising customer complaints about mouthwash lea
 ```
 ├── Perfora_Production_MIS_Dataset.xlsx   # dataset (Data, Questions, Data_Dictionary sheets)
 ├── Perfora_MIS_BRD.docx                  # Business Requirements Document
-├── Production_MIS_Dashboard.xlsx         # my pivots, charts and dashboard  <-- add your file name
+├── Perfora_Production_MIS_Dashboard.xlsx # my pivots, charts and dashboard  <-- use your actual file name
+├─  Dashboard.png                     # Dashboard screenshot
 └── README.md
 ```
 
