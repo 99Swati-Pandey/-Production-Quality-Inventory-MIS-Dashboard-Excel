@@ -8,7 +8,7 @@ An Excel MIS project on a simulated oral-care manufacturing plant (Manesar). It 
 
 ## Dashboard preview
 
-![Perfora Production, Quality & Inventory MIS Dashboard](images/dashboard.png)
+![Perfora Production, Quality & Inventory MIS Dashboard](Dashboard.png)
 
 ---
 
@@ -72,7 +72,7 @@ From July 2026 the Plant Head saw rising customer complaints about mouthwash lea
 ├── Perfora_Production_MIS_Dataset.xlsx   # dataset (Data, Questions, Data_Dictionary sheets)
 ├── Perfora_MIS_BRD.docx                  # Business Requirements Document
 ├── Perfora_Production_MIS_Dashboard.xlsx # my pivots, charts and dashboard  <-- use your actual file name
-├─  Dashboard.png                     # Dashboard screenshot
+├── Dashboard.png                         # dashboard screenshot
 └── README.md
 ```
 
